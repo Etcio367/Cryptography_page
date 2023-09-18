@@ -1,0 +1,72 @@
+/*--------------- Estilos Globales----------*/
+
+* {
+    color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+}
+
+/*----------------- Header -------------------*/
+
+.p1-header-image {
+    background: linear-gradient(rgb(13, 86, 129), #070766b4, rgba(31, 57, 209, 0.76)), url("/img/paisaje-violet.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20em;
+}
+
+
+.p1-title {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------- Main -------------------*/
+
+.main{
+    padding: 50px 350px;
+    align-items: center;
+}
+
+.p1-title-content {
+    display: flex;
+}
+
+.main-content {
+    display: inline-flex;
+    justify-content: center;
+    padding: 0px 100px;
+}
+
+.main-content_decrypt{
+    padding: 0px 100px;
+}
+
+.boton{
+    margin: 10px;
+    padding: 10px;
+}
+
+.backPage {
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+/*----------------- footer -------------------*/
+
+.footer{
+    background-color:  #3d8cdf;
+    padding: 50px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+}

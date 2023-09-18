@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles-p1.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="/scripts/pract1-js.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.3.0/crypto-js.js"></script>
+
+    <title>Práctica 1. Criptografía</title>
+</head>
+
+<body>
+
+    <header class="p1-header">
+        <div class="p1-header-image"></div>
+    </header>
+
+    <div class="p1-title">
+        <div class="p1-title-content">
+            <h1 class="p1-title-content_text">Práctica 1. Implementación de función criptográfica</h1>
+        </div>
+    </div>
+
+    <main class="main">
+        <input type="file" id="fileInput" accept=".txt">
+        <div class="main-content">
+            <div class="main-crypt">
+                <br><br>         
+                <br><br>
+                <p>Archivo Subido:</p>
+                <textarea id="textoCifrado" cols="30" rows="10"></textarea>
+                <br><br>
+            </div>
+            <div class="main-content_decrypt">
+                <!-- <input type="file" id="fileInput" accept=".txt"> -->
+                <br><br>
+                
+                <br><br>
+                <p>Resultado de Cifrado o Descifrado:</p>
+                <textarea id="textoDescifrado" cols="30" rows="10"></textarea>
+                <br><br>
+            </div>
+            <br><br>
+
+        </div>
+
+        <br><br><br><br>
+
+        <button id="botonCifrar" class="boton">Cifrar</button>
+        <button id="botonDescifrar" class="boton">Descifrar</button>
+        <br><br>
+        <a class="backPage" href="/index.html">Volver</a>
+
+    </main>
+
+    <footer class="footer">
+        <p>by. Domínguez Galán Erick</p>
+        <p>Loredo Cortes Luis Josué</p>
+        <p>Ariadne Denisse Morales Vilchis</p>
+    </footer>
+
+</body>
+
+</html>
